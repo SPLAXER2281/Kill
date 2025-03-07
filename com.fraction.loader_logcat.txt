@@ -1,0 +1,34 @@
+--------- beginning of main
+03-06 18:38:53.305 29812 29812 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+03-06 18:38:53.307 29812 29812 I OpenGLRenderer: SupportApps size 0
+03-06 18:38:53.313 29812 29848 D OplusGraphicsEvent: OplusGraphicsEventListener create now!
+03-06 18:38:53.313 29812 29812 D AndroidRuntime: Shutting down VM
+03-06 18:38:53.314 29812 29812 E CrashHandler: App crashed!
+03-06 18:38:53.314 29812 29812 E CrashHandler: java.lang.VerifyError: Verifier rejected class com.vip.loader.SplashActivity: void com.vip.loader.SplashActivity.lambda$onCreate$1$com-vip-loader-SplashActivity(java.lang.Void) failed to verify: void com.vip.loader.SplashActivity.lambda$onCreate$1$com-vip-loader-SplashActivity(java.lang.Void): [0xA] register v2 has type Reference: com.vip.loader.SplashActivity but expected Precise Reference: android.os.Bundle (declaration of 'com.vip.loader.SplashActivity' appears in /data/app/~~zmupQyYCQnpZlNjmM4Z-6w==/com.fraction.loader-MbwSvHxE0i55dcp7xBMkhQ==/base.apk)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at java.lang.Class.newInstance(Native Method)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:45)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at android.app.Instrumentation.newActivity(Instrumentation.java:1397)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3983)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4263)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:114)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:144)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:101)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2724)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at android.os.Looper.loopOnce(Looper.java:255)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at android.os.Looper.loop(Looper.java:364)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at android.app.ActivityThread.main(ActivityThread.java:8979)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at java.lang.reflect.Method.invoke(Native Method)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:572)
+03-06 18:38:53.314 29812 29812 E CrashHandler: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1053)
+03-06 18:38:53.315 29812 29848 D OplusGraphicsEvent: addEventListener success!
+03-06 18:38:53.315 29812 29848 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+03-06 18:38:53.316 29812 29848 D ExtensionsLoader: Opened libSchedAssistExtImpl.so
+03-06 18:38:53.316 29812 29848 E SchedAssist: sysOpen failed with error=Permission denied
+03-06 18:38:53.316 29812 29848 E SchedAssist: open sharedFd failed with error=Permission denied
+03-06 18:38:53.316 29812 29848 E SchedAssist: open sharedFd failed with error=Permission denied
+03-06 18:38:53.316 29812 29848 E SchedAssist: open sharedFd failed with error=No such file or directory
+03-06 18:38:53.317 29812 29812 D CrashHandler: Log file created: /data/user/0/com.fraction.loader/cache/log-crash/crash_log_0306_183853.txt
+03-06 18:38:53.366 29857 29857 W libprocessgroup: Controller io is not found
+03-06 18:38:53.366 29857 29857 W libprocessgroup: Contr
